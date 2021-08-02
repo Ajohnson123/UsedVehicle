@@ -34600,9 +34600,23 @@ a.u-link.u-text-hover-grey-90:hover {
   height: 100%;
 }
 
+@media (max-width: 991px) {
+  .u-header .u-image-1 {
+    margin-left: auto;
+  }
+}
 
+@media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 84px;
+  }
 
-
+  .u-header .u-image-1 {
+    width: 340px;
+    height: 44px;
+    margin: 20px 0;
+  }
+}
 .u-footer {
   background-image: none;
 }
