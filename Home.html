@@ -22,14 +22,16 @@
     
     
     
+    
     <script type="application/ld+json">{
 		"@context": "http://schema.org",
 		"@type": "Organization",
-		"name": "",
+		"name": "Site2",
 		"logo": "images/NissanofAlhambra_White-1024x134.png"
 }</script>
     <meta name="theme-color" content="#478ac9">
     <meta property="og:title" content="Home">
+    <meta property="og:description" content="">
     <meta property="og:type" content="website">
   </head>
   <body class="u-body"><header class="u-black u-clearfix u-header u-header" id="sec-40da"><div class="u-clearfix u-sheet u-valign-middle-xs u-sheet-1">
@@ -40,6 +42,7 @@
     <section class="u-align-center u-clearfix u-custom-color-1 u-section-1" id="sec-cf53">
       <div class="u-clearfix u-sheet u-sheet-1">
         <h3 class="u-text u-text-1">Used 2009 Chrysler 300</h3>
+        <p class="u-text u-text-2"> &nbsp;The Chrysler 300 LX is a rare find, as it's in such immaculate condition and has so few miles. It was gently driven by the previous owner and this can be seen from its shiny exterior to the sleek interior that will turn heads for sure!</p>
         <div class="pointer-event u-carousel u-expanded-width-xs u-gallery u-layout-thumbnails u-lightbox u-no-transition u-show-text-on-hover u-thumbnails-position-bottom u-gallery-1" id="carousel-e131" data-interval="5000" data-u-ride="carousel">
           <div class="u-carousel-inner u-gallery-inner" role="listbox">
             <div class="u-active u-carousel-item u-gallery-item u-carousel-item-1">
@@ -260,7 +263,7 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
                 </div>
               </div>
               <div class="u-container-style u-layout-cell u-size-24 u-layout-cell-2">
-                <div class="u-container-layout u-valign-bottom-md u-valign-bottom-sm u-valign-bottom-xl u-valign-bottom-xs u-container-layout-2">
+                <div class="u-container-layout u-valign-bottom-xl u-container-layout-2">
                   <a href="https://pwrjrko9zqp.typeform.com/to/F2nIkTD2" class="u-align-center u-border-none u-btn u-btn-round u-button-style u-custom-color-2 u-hover-custom-color-3 u-radius-6 u-btn-2">Schedule Test Drive</a>
                 </div>
               </div>
@@ -367,6 +370,105 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
     <section class="u-clearfix u-custom-color-1 u-section-7" id="sec-bd1d">
       <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-sheet-1">
         <img class="u-expanded-width u-image u-image-contain u-image-default u-image-1" src="images/Policy.png" alt="" data-image-width="1575" data-image-height="375">
+      </div>
+    </section>
+    <section class="u-clearfix u-section-8" id="sec-d85c">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-clearfix u-custom-html u-expanded-width u-custom-html-1">
+          <style> body {
+	background-color: #f5f5f5;
+}
+.adminActions {
+  position: fixed;
+  bottom: 35px; right: 35px;
+}
+  .adminButton {
+    height: 60px;
+    width: 60px;
+    background-color: rgba(67, 83, 143, .8);
+    border-radius: 50%;
+    display: block;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+    .adminButton i {
+      font-size: 22px;
+    }
+  .adminButtons {
+    position: absolute;
+    width: 100%;
+    bottom: 120%;
+    text-align: center;
+  }
+    .adminButtons a {
+      display: block;
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      text-decoration: none;
+      margin: 10px auto 0;
+      line-height: 1.15;
+      color: #fff;
+      opacity: 0;
+      visibility: hidden;
+      position: relative;
+      box-shadow: 0 0 5px 1px rgba(51, 51, 51, .3);
+    }
+      .adminButtons a:hover {
+        transform: scale(1.05);
+      }
+      .adminButtons a:nth-child(1) {background-color: #ff5722; transition: opacity .2s ease-in-out .3s, transform .15s ease-in-out;}
+      .adminButtons a:nth-child(2) {background-color: #03a9f4; transition: opacity .2s ease-in-out .25s, transform .15s ease-in-out;}
+      .adminButtons a:nth-child(3) {background-color: #f44336; transition: opacity .2s ease-in-out .2s, transform .15s ease-in-out;}
+      .adminButtons a:nth-child(4) {background-color: #4CAF50; transition: opacity .2s ease-in-out .15s, transform .15s ease-in-out;}
+      .adminActions a i {
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translate(-50%, -50%);
+      }
+  .adminToggle {
+    -webkit-appearance: none;
+    position: absolute;
+    border-radius: 50%;
+    top: 0; left: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    z-index: 2;
+    transition: box-shadow .2s ease-in-out;
+    box-shadow: 0 3px 5px 1px rgba(51, 51, 51, .3);
+  }
+    .adminToggle:hover {
+      box-shadow: 0 3px 6px 2px rgba(51, 51, 51, .3);
+    }
+    .adminToggle:checked ~ .adminButtons a {
+      opacity: 1;
+      visibility: visible;
+    } </style>
+          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+          <div class="adminActions">
+            <input type="checkbox" name="adminToggle" class="adminToggle">
+            <a class="adminButton" href="#!">
+              <img class="u-back-image u-expanded" src="images/Chyrsler3009.jpg">
+            </a>
+            <div class="adminButtons">
+              <a href="#" title="Add Company"><i class="fa fa-building"></i>
+              </a>
+              <a href="#" title="Edit Company"><i class="fa fa-pen"></i>
+              </a>
+              <a href="#" title="Add User"><i class="fa fa-user-plus"></i>
+              </a>
+              <a href="#" title="Edit User"><i class="fa fa-user-edit"></i>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     
