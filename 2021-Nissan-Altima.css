@@ -131,52 +131,52 @@
   height: 100px;
 }
 
-.u-section-1 .u-carousel-thumbnail-1 {
+.u-section-1 .u-carousel-thumbnail-2 {
   width: 100px;
   height: 100px;
 }
 
-.u-section-1 .u-carousel-thumbnail-1 {
+.u-section-1 .u-carousel-thumbnail-3 {
   width: 100px;
   height: 100px;
 }
 
-.u-section-1 .u-carousel-thumbnail-1 {
+.u-section-1 .u-carousel-thumbnail-4 {
   width: 100px;
   height: 100px;
 }
 
-.u-section-1 .u-carousel-thumbnail-1 {
+.u-section-1 .u-carousel-thumbnail-5 {
   width: 100px;
   height: 100px;
 }
 
-.u-section-1 .u-carousel-thumbnail-1 {
+.u-section-1 .u-carousel-thumbnail-6 {
   width: 100px;
   height: 100px;
 }
 
-.u-section-1 .u-carousel-thumbnail-1 {
+.u-section-1 .u-carousel-thumbnail-7 {
   width: 100px;
   height: 100px;
 }
 
-.u-section-1 .u-carousel-thumbnail-1 {
+.u-section-1 .u-carousel-thumbnail-8 {
   width: 100px;
   height: 100px;
 }
 
-.u-section-1 .u-carousel-thumbnail-1 {
+.u-section-1 .u-carousel-thumbnail-9 {
   width: 100px;
   height: 100px;
 }
 
-.u-section-1 .u-carousel-thumbnail-1 {
+.u-section-1 .u-carousel-thumbnail-10 {
   width: 100px;
   height: 100px;
 }
 
-.u-section-1 .u-carousel-thumbnail-1 {
+.u-section-1 .u-carousel-thumbnail-11 {
   width: 100px;
   height: 100px;
 }
@@ -198,6 +198,7 @@
 @media (max-width: 991px) {
   .u-section-1 .u-gallery-1 {
     width: 523px;
+    height: 492px;
     margin-top: 29px;
     margin-bottom: 46px;
   }
@@ -230,6 +231,61 @@
     margin-right: initial;
     margin-left: initial;
     width: auto;
+  }
+
+  .u-section-1 .u-carousel-thumbnail-1 {
+    width: 31px;
+    height: 31px;
+  }
+
+  .u-section-1 .u-carousel-thumbnail-2 {
+    width: 31px;
+    height: 31px;
+  }
+
+  .u-section-1 .u-carousel-thumbnail-3 {
+    width: 31px;
+    height: 31px;
+  }
+
+  .u-section-1 .u-carousel-thumbnail-4 {
+    width: 31px;
+    height: 31px;
+  }
+
+  .u-section-1 .u-carousel-thumbnail-5 {
+    width: 31px;
+    height: 31px;
+  }
+
+  .u-section-1 .u-carousel-thumbnail-6 {
+    width: 31px;
+    height: 31px;
+  }
+
+  .u-section-1 .u-carousel-thumbnail-7 {
+    width: 31px;
+    height: 31px;
+  }
+
+  .u-section-1 .u-carousel-thumbnail-8 {
+    width: 31px;
+    height: 31px;
+  }
+
+  .u-section-1 .u-carousel-thumbnail-9 {
+    width: 31px;
+    height: 31px;
+  }
+
+  .u-section-1 .u-carousel-thumbnail-10 {
+    width: 31px;
+    height: 31px;
+  }
+
+  .u-section-1 .u-carousel-thumbnail-11 {
+    width: 31px;
+    height: 31px;
   }
 }.u-section-2 {
   background-image: none;
