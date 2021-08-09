@@ -34608,11 +34608,13 @@ a.u-link.u-text-hover-grey-90:hover {
 
 @media (max-width: 575px) {
   .u-header .u-sheet-1 {
-    min-height: 84px;
+    min-height: 86px;
   }
 
   .u-header .u-image-1 {
-    margin-bottom: 22px;
+    width: 340px;
+    height: 44px;
+    margin: 21px 0;
   }
 }
 .u-footer {
